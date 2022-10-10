@@ -1,0 +1,15 @@
+.flexs{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-body{
+    margin: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .flexs {
+      display: block;
+    }
+    .skill-body{
+        text-align: center;
+    }
+}

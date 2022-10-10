@@ -1,0 +1,14 @@
+.skills{
+    background-color: aquamarine;
+    width: 250px;
+    height: 390px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.skills img {
+    background-color: rgb(240, 255, 244);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    background-color: gray;
+}

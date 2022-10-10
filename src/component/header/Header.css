@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+.flex div{
+    margin: 2px 20px;
+}
+.flex, div a{
+    text-decoration: none;
+    color: blanchedalmond;
+    align-items: center;
+    padding: 0 20px;
+}
