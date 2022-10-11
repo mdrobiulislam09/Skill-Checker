@@ -4,7 +4,7 @@ import Options from '../options/Options';
 const Question = ({questions}) => {
     const {question, options, correctAnswer} = questions ;
     const showAnswer = (correctAnswer) => {
-        return alert(correctAnswer)
+    return alert(`Answer: ${correctAnswer}`)
     }
     return (
         <div>
