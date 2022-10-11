@@ -1,8 +1,6 @@
 # Assignment-9
 
-project name; assignment-9
 Live website link: https://teal-eclair-943e76.netlify.app/
-
 project-feature:
 1. Re-charts: this feature is so easy and  impressive.
 2. React-router: this feature is easy and make us more perfect. 
