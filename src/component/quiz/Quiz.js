@@ -6,14 +6,13 @@ const Quiz = () => {
     const quizs = useLoaderData();
     const {name} = quizs.data ;
     const questions = quizs.data.questions ;
-    console.log(questions)
     return (
         <div>
             <h1>Quiz of {name}</h1>
             <div>
                 {
                     questions.map(question => <Question
-                        question = {question}
+                        questions = {question}
                         key={question.id}
                     ></Question> )
                 }
