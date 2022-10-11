@@ -7,8 +7,8 @@ const Quiz = () => {
     const {name} = quizs.data ;
     const questions = quizs.data.questions ;
     return (
-        <div>
-            <h1>Quiz of {name} </h1>
+        <div className='container bg-secondary '>
+            <h1 className='text-center text-light'>Quiz of {name} </h1>
             
             <div>
                 {

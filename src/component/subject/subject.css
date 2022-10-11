@@ -5,9 +5,17 @@
 .skill-body{
     margin: 50px;
 }
+.header{border-radius: 3px;
+    text-align: center;
+    margin: 0;
+    background-image: url(https://image.shutterstock.com/image-vector/skill-levels-knob-button-increasing-600w-1484062181.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 @media only screen and (max-width: 600px) {
     .flexs {
       display: block;
+
     }
     .skill-body{
         text-align: center;

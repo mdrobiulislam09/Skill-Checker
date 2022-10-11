@@ -1,6 +1,7 @@
 import React from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './Options.css'
 
 const Options = ({options, right}) => {
     const answer = (options) => {
@@ -12,13 +13,9 @@ const Options = ({options, right}) => {
         }
     }
     return (
-        <div>
-            <button  onClick={()=> answer(options)}>
-                <input type="radio" name="address" value={options.ADDRESS}>
-                    {options.ADDRESS}
-                </input>
-                <span>{options}</span>
-            </button>
+        <div className='options bg-info col-md-4 border d-block'>
+            <input onClick={()=> answer(options)} type="radio" id={options} name="address" value={options}/>
+            <label for={options}>{options}</label>
             <ToastContainer autoClose={1000}></ToastContainer>
         </div>
     );

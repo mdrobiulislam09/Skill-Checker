@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: blueviolet;
     color: blanchedalmond;
+    margin: 0;
 }
 .flex div{
     margin: 2px 20px;

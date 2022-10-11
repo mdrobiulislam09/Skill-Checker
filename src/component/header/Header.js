@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className='flex'>
             <div>
-                <h1>Skill Test</h1>
+                <h1>Skill Checker</h1>
             </div>
             <div>
                 <NavLink to='/'>Subject</NavLink>
