@@ -3,9 +3,15 @@ import Options from '../options/Options';
 
 const Question = ({questions}) => {
     const {question, options, correctAnswer} = questions ;
+    const showAnswer = (correctAnswer) => {
+        return alert(correctAnswer)
+    }
     return (
         <div>
-            <h3>{question}</h3>
+            <h3>Quiz: {question}</h3>
+            <div>
+            <i onClick={()=> showAnswer(correctAnswer)} class="fa-solid fa-eye"></i>
+            </div>
             <div>
             {
                 options.map(option => <Options 
