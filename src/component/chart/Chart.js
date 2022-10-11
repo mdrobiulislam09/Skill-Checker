@@ -6,9 +6,9 @@ const Chart = () => {
     const datas = useLoaderData()
     const {data} = datas ;
     return (
-        <div>
+        <div className='container p-5'>
             {
-            <LineChart width={400} height={300} data={data}>
+            <LineChart width={300} height={400} data={data}>
                 <XAxis dataKey="name" />
                 <YAxis/>
                 <Tooltip />
